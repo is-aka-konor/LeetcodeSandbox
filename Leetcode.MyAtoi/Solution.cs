@@ -7,16 +7,16 @@ namespace Leetcode.MyAtoi
 	{
 		public int MyAtoi(string s)
 		{
-			var cleanString = s.TrimStart()
-				.ToArray();
+			var cleanString = s.TrimStart();
 			if (!(cleanString.Length > 0)
 				|| (cleanString.Length == 1 && !Char.IsDigit(cleanString[0])))
 			{
 				return 0;
 			}
 			int index = 0;
-			// Search for the first digit or minus sign
-			if(index < cleanString.Length
+			var length = cleanString.Length;
+			// Search for the first digit or a sign symbol
+			if (index < length
 				&& !Char.IsDigit(cleanString[index])
 				&& cleanString[index] != '-'
 				&& cleanString[index] != '+')
@@ -32,42 +32,38 @@ namespace Leetcode.MyAtoi
             }
             else if(cleanString[index] == '+')
             {
-				++index;
 				multiplyer = 1;
+				++index;
+				
 			}
 			else
 			{
 				multiplyer = 1;
             }
-			if (index < cleanString.Length
+			if (index < length
 				&& !Char.IsDigit(cleanString[index])) {
 				return 0;
 			}
+			
+			while(index < length
+					&& cleanString[index] == '0')
+            {
+				++index;
+            };
 			var result = new StringBuilder();
-			var removeLeadingZero = true;
-			while(index < cleanString.Length
+			while (index < length
 				&& Char.IsDigit(cleanString[index]))
             {
-				if(removeLeadingZero
-					&& cleanString[index] == '0')
-                {
-					++index;
-					continue;
-				}
-				if (removeLeadingZero
-					&& cleanString[index] != '0')
-                {
-					removeLeadingZero = false;
-                }
 				result.Append(cleanString[index]);
 				++index;
             }
-			var resultString = result.ToString();
-			if(resultString.Length > 10)
+			var stringResult = result.ToString();
+			if (stringResult.Length > 10)
             {
 				return multiplyer > 0 ? int.MaxValue : Int32.MinValue;
             }
-			var number = Convert.ToInt64(resultString) * multiplyer;
+			if (result.Length == 0) return 0;
+			var number = Convert.ToInt64(stringResult) * multiplyer;
 
 			if (number > Int32.MaxValue) return Int32.MaxValue;
 			else if (number < Int32.MinValue) return Int32.MinValue;
