@@ -4,7 +4,7 @@ namespace Leetcode.SumTwo.Tests;
 
 public class SumTwoInput
 {
-    public int[] Input { get; set; }
+    public int[] Input { get; set; } 
     public int Target { get; set; }
     public int[] Result { get; set; } = new int[2];
 }

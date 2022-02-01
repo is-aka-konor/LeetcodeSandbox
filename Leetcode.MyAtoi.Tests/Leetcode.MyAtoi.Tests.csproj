@@ -21,6 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Leetcode.SumTwo\Leetcode.TwoSum.csproj" />
+    <ProjectReference Include="..\Leetcode.MyAtoi\Leetcode.MyAtoi.csproj" />
   </ItemGroup>
 </Project>
