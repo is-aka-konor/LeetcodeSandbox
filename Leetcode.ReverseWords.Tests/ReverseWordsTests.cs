@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 
 namespace Leetcode.ReverseWords.Tests
@@ -12,7 +13,7 @@ namespace Leetcode.ReverseWords.Tests
         {
             var solutionImplementation = new Solution();
             var result = solutionImplementation.ReverseWords(input);
-            Assert.Equal(target, result);
+            Assert.True(target.Equals(result, StringComparison.OrdinalIgnoreCase));
         }
     }
 }
