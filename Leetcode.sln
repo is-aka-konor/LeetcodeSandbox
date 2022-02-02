@@ -1,24 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32127.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.TwoSum", "Leetcode.SumTwo\Leetcode.TwoSum.csproj", "{BA7611B8-AB96-41FD-ACC2-DF40D41EA049}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode.TwoSum", "Leetcode.SumTwo\Leetcode.TwoSum.csproj", "{BA7611B8-AB96-41FD-ACC2-DF40D41EA049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.TwoSum.Tests", "Leetcode.SumTwo.Tests\Leetcode.TwoSum.Tests.csproj", "{781E65FA-0AE5-4594-B85F-235DBEE48751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode.TwoSum.Tests", "Leetcode.SumTwo.Tests\Leetcode.TwoSum.Tests.csproj", "{781E65FA-0AE5-4594-B85F-235DBEE48751}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B75FE26-242F-4436-9EFA-642BC820DC95}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ValidPalindrome.Tests", "Leetcode.ValidPalindrome.Tests\Leetcode.ValidPalindrome.Tests.csproj", "{47036321-B771-4EFA-AD87-327DF048FD67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode.ValidPalindrome.Tests", "Leetcode.ValidPalindrome.Tests\Leetcode.ValidPalindrome.Tests.csproj", "{47036321-B771-4EFA-AD87-327DF048FD67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ValidPalindrome", "Leetcode.ValidPalindrome\Leetcode.ValidPalindrome.csproj", "{BE57000B-6D3D-431E-B1DE-99859B5BBEBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode.ValidPalindrome", "Leetcode.ValidPalindrome\Leetcode.ValidPalindrome.csproj", "{BE57000B-6D3D-431E-B1DE-99859B5BBEBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.MyAtoi.Tests", "Leetcode.MyAtoi.Tests\Leetcode.MyAtoi.Tests.csproj", "{26AE477C-0C6C-4F75-8F49-74D18BA7B838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode.MyAtoi.Tests", "Leetcode.MyAtoi.Tests\Leetcode.MyAtoi.Tests.csproj", "{26AE477C-0C6C-4F75-8F49-74D18BA7B838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.MyAtoi", "Leetcode.MyAtoi\Leetcode.MyAtoi.csproj", "{EE220BC9-9FCC-4081-ADE2-0E59B8F5437A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode.MyAtoi", "Leetcode.MyAtoi\Leetcode.MyAtoi.csproj", "{EE220BC9-9FCC-4081-ADE2-0E59B8F5437A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ReverseWords.Tests", "Leetcode.ReverseWords.Tests\Leetcode.ReverseWords.Tests.csproj", "{D7133BDC-F88C-4D9D-A6E5-8868BBA08485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ReverseWords", "Leetcode.ReverseWords\Leetcode.ReverseWords.csproj", "{8C595E00-F6DD-4035-B41D-055D025E30B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +54,14 @@ Global
 		{EE220BC9-9FCC-4081-ADE2-0E59B8F5437A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE220BC9-9FCC-4081-ADE2-0E59B8F5437A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE220BC9-9FCC-4081-ADE2-0E59B8F5437A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7133BDC-F88C-4D9D-A6E5-8868BBA08485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7133BDC-F88C-4D9D-A6E5-8868BBA08485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7133BDC-F88C-4D9D-A6E5-8868BBA08485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7133BDC-F88C-4D9D-A6E5-8868BBA08485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C595E00-F6DD-4035-B41D-055D025E30B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C595E00-F6DD-4035-B41D-055D025E30B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C595E00-F6DD-4035-B41D-055D025E30B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C595E00-F6DD-4035-B41D-055D025E30B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
