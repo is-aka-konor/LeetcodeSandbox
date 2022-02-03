@@ -7,6 +7,8 @@ namespace Leetcode.ValidParentheses.Tests
         [Theory]
         [InlineData("()", true)]
         [InlineData("()[]{}", true)]
+        [InlineData("((([])))", true)]
+        [InlineData("((([)]))", false)]
         [InlineData("{[]", false)]
         public void ShouldPassValidParenthesesTests(string input, bool output)
         {
