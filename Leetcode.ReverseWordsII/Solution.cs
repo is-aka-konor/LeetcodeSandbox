@@ -19,6 +19,7 @@ namespace Leetcode.ReverseWordsII
 				}
             }
 			stack.Push(buffer.ToArray());
+			buffer = null;
 			var index = 0;
 			var wordsCount = stack.Count;
 			for(var i = 0; i < wordsCount; ++i)
@@ -26,13 +27,11 @@ namespace Leetcode.ReverseWordsII
 				var word = stack.Pop();
 				for(var j = 0; j < word.Length; ++j)
 				{
-					s[index] = word[j];
-					index++;
+					s[index++] = word[j];
 				}
 				if(stack.Count != 0)
 				{
-					s[index] = ' ';
-					index++;
+					s[index++] = ' ';
 				}
 			}
 			return s;
