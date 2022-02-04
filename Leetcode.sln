@@ -28,6 +28,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ValidParentheses.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ValidParentheses", "Leetcode.ValidParentheses\Leetcode.ValidParentheses.csproj", "{76A1EF02-9924-4D29-8FE8-90DC31EAE690}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ReverseWordsII", "Leetcode.ReverseWordsII\Leetcode.ReverseWordsII.csproj", "{327E4B91-480C-44E9-8A71-64944D78B938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ReverseWordsII.Tests", "Leetcode.ReverseWordsII.Tests\Leetcode.ReverseWordsII.Tests.csproj", "{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +78,14 @@ Global
 		{76A1EF02-9924-4D29-8FE8-90DC31EAE690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76A1EF02-9924-4D29-8FE8-90DC31EAE690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76A1EF02-9924-4D29-8FE8-90DC31EAE690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327E4B91-480C-44E9-8A71-64944D78B938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327E4B91-480C-44E9-8A71-64944D78B938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327E4B91-480C-44E9-8A71-64944D78B938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327E4B91-480C-44E9-8A71-64944D78B938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
