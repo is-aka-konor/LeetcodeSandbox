@@ -32,6 +32,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ReverseWordsII", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.ReverseWordsII.Tests", "Leetcode.ReverseWordsII.Tests\Leetcode.ReverseWordsII.Tests.csproj", "{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.LongestPalindrome", "Leetcode.LongestPalindrome\Leetcode.LongestPalindrome.csproj", "{12FBB5FA-545C-4F5D-9BC4-B8BBF2F0735A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.LongestPalindrome.Tests", "Leetcode.LongestPalindrome.Tests\Leetcode.LongestPalindrome.Tests.csproj", "{96B0C523-6F14-485E-9E52-4A1F2B0A0FA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +90,14 @@ Global
 		{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B0DACE8-95F2-4BC2-A31E-C5A718786D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FBB5FA-545C-4F5D-9BC4-B8BBF2F0735A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FBB5FA-545C-4F5D-9BC4-B8BBF2F0735A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FBB5FA-545C-4F5D-9BC4-B8BBF2F0735A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FBB5FA-545C-4F5D-9BC4-B8BBF2F0735A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B0C523-6F14-485E-9E52-4A1F2B0A0FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B0C523-6F14-485E-9E52-4A1F2B0A0FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B0C523-6F14-485E-9E52-4A1F2B0A0FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B0C523-6F14-485E-9E52-4A1F2B0A0FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
