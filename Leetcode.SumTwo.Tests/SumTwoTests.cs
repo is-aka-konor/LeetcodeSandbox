@@ -21,9 +21,6 @@ public class TwoSumTests
         Assert.True(solutionResult[0] == input.Result[0]
             && solutionResult[1] == input.Result[1]);
     }
-
-    
-
     public static TheoryData<SumTwoInput> SumTwoData =>
         new TheoryData<SumTwoInput>
         {
