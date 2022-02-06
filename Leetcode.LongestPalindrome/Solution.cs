@@ -7,41 +7,38 @@ public class Solution
     public string LongestPalindrome(string s)
     {
         var result = string.Empty;
-        for (var i =0; i < s.Length; i++)
+        for (var i = 0; i < s.Length; ++i)
         {
-            for (var j = i; j < s.Length; j++)
+            var palindrome = GetPalindrome(s, i, i);
+            if (palindrome.Length > result.Length)
             {
-                var substring = s.Substring(i, j - i + 1);
-                if (!this._cache.ContainsKey(substring))
-                {
-                    var isPalindrome = IsPalindrome(substring);
-                    CacheSubstring(substring, isPalindrome, ref result);
-                }
+                result = palindrome;
+            }
+
+            palindrome = GetPalindrome(s, i, i + 1);
+            if (palindrome.Length > result.Length)
+            {
+                result = palindrome;
             }
         }
         return result;
     }
-
-    private void CacheSubstring(string substring, bool isPalindrome, ref string result)
+    
+    private string GetPalindrome(string s, int start, int end)
     {
-        this._cache.Add(substring, isPalindrome);
-        if (isPalindrome && result.Length < substring.Length)
+        var key = $"{start}-{end}";
+        if (_cache.ContainsKey(key))
         {
-            result = substring;
+            return _cache[key] ? s.Substring(start, end - start + 1) : string.Empty;
         }
-    }
 
-    private bool IsPalindrome(string s)
-    {
-        var cleanString = s.ToLower().Where(char.IsLetterOrDigit).ToArray();
-        if (cleanString.Length == 0) return true;
-
-        var steps = cleanString.Count() / 2;
-        for (var i = 0; i <= steps; ++i)
+        while (start >= 0 && end < s.Length && s[start] == s[end])
         {
-            if(cleanString[i] != cleanString[cleanString.Length - 1 - i])
-                return false;
+            start--;
+            end++;
         }
-        return true;
+
+        _cache.Add(key, end - start - 1 > 0);
+        return _cache[key] ? s.Substring(start + 1, end - start - 1) : string.Empty;
     }
 }
