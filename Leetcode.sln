@@ -44,6 +44,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.GroupAnagrams", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.GroupAnagrams.Tests", "Leetcode.GroupAnagrams.Tests\Leetcode.GroupAnagrams.Tests.csproj", "{0E651469-C243-4579-A584-054F002DF22A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.TrappingRainWater", "Leetcode.TrappingRainWater\Leetcode.TrappingRainWater.csproj", "{4DF95227-569C-4683-8758-6B0BB4B32982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.TrappingRainWater.Tests", "Leetcode.TrappingRainWater.Tests\Leetcode.TrappingRainWater.Tests.csproj", "{CCA5418D-C006-4B38-9571-81829296273E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +118,14 @@ Global
 		{0E651469-C243-4579-A584-054F002DF22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E651469-C243-4579-A584-054F002DF22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E651469-C243-4579-A584-054F002DF22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF95227-569C-4683-8758-6B0BB4B32982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF95227-569C-4683-8758-6B0BB4B32982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF95227-569C-4683-8758-6B0BB4B32982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF95227-569C-4683-8758-6B0BB4B32982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA5418D-C006-4B38-9571-81829296273E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA5418D-C006-4B38-9571-81829296273E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA5418D-C006-4B38-9571-81829296273E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA5418D-C006-4B38-9571-81829296273E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,5 +150,7 @@ Global
 		{76A1EF02-9924-4D29-8FE8-90DC31EAE690} = {2CC18CED-0A91-4C26-BBC0-CA8D7A7BD399}
 		{84822982-E5D8-4B45-A94F-307FE8AE3457} = {2CC18CED-0A91-4C26-BBC0-CA8D7A7BD399}
 		{0E651469-C243-4579-A584-054F002DF22A} = {E062CF3C-4B94-47BB-8A63-077B527D8E90}
+		{4DF95227-569C-4683-8758-6B0BB4B32982} = {2CC18CED-0A91-4C26-BBC0-CA8D7A7BD399}
+		{CCA5418D-C006-4B38-9571-81829296273E} = {E062CF3C-4B94-47BB-8A63-077B527D8E90}
 	EndGlobalSection
 EndGlobal

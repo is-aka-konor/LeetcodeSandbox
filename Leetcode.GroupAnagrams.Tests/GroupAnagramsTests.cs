@@ -46,7 +46,7 @@ public class GroupAnagramsTests
             },
             new GroupAnagramsTestInput()
             {
-                Input = new string[] { "", "", ""},
+                Input = new string[] { "" },
                 Result = new List<IList<string>>()
                 {
                     new List<string>() { "" }
