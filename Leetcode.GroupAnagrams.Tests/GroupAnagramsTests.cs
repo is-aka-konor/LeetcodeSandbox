@@ -13,11 +13,14 @@ public class GroupAnagramsTests
 {
     [Theory]
     [MemberData(nameof(GroupAnagramsData), MemberType = typeof(GroupAnagramsTests))]
-    public void ShouldPassGroupAnagramsTests(string[] input, IList<IList<string>> expected)
+    public void ShouldPassGroupAnagramsTests(GroupAnagramsTestInput data)
     {
         var solutionImplementation = new Solution();
-        var result = solutionImplementation.GroupAnagrams(input);
-        Assert.Equal(expected, result);
+        if (data.Input != null)
+        {
+            var result = solutionImplementation.GroupAnagrams(data.Input);
+            Assert.Equal(data.Result, result);
+        }
     }
 
     public static TheoryData<GroupAnagramsTestInput> GroupAnagramsData =>
