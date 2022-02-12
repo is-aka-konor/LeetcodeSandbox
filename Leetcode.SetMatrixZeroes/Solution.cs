@@ -4,8 +4,8 @@ public class Solution
 {
     public void SetZeroes(int[][] matrix)
     {
-        var rowsSet = new int[matrix.Length];
-        var colsSet = new int[matrix[0].Length];
+        var rowsSet = new bool[matrix.Length];
+        var colsSet = new bool[matrix[0].Length];
         // Mark rows and cols with 0
         for (var i = 0; i < matrix[0].Length; ++i)
         {
@@ -13,8 +13,8 @@ public class Solution
             {
                 if (matrix[j][i] == 0)
                 {
-                    rowsSet[j] = 1;
-                    colsSet[i] = 1;
+                    rowsSet[j] = true;
+                    colsSet[i] = true;
                 }
             }
         }
@@ -23,7 +23,7 @@ public class Solution
         {
             for (var j = 0; j < matrix.Length; ++j)
             {
-                if (colsSet[i] == 1 || rowsSet[j] == 1)
+                if ((colsSet[i] || rowsSet[j]) && matrix[j][i] != 0)
                 {
                     matrix[j][i] = 0;
                 }
