@@ -52,6 +52,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.SetMatrixZeroes", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.SetMatrixZeroes.Tests", "Leetcode.SetMatrixZeroes.Tests\Leetcode.SetMatrixZeroes.Tests.csproj", "{AABC0AE4-9122-4164-B125-6BB1E37CBB74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.RotateImage", "Leetcode.RotateImage\Leetcode.RotateImage.csproj", "{06186746-D4A1-41C0-A282-90FB34FB6417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.RotateImageTests", "Leetcode.RotateImageTests\Leetcode.RotateImageTests.csproj", "{BBF3D072-9881-4138-A01A-B72B9F11370A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,6 +142,14 @@ Global
 		{AABC0AE4-9122-4164-B125-6BB1E37CBB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AABC0AE4-9122-4164-B125-6BB1E37CBB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AABC0AE4-9122-4164-B125-6BB1E37CBB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06186746-D4A1-41C0-A282-90FB34FB6417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06186746-D4A1-41C0-A282-90FB34FB6417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06186746-D4A1-41C0-A282-90FB34FB6417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06186746-D4A1-41C0-A282-90FB34FB6417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF3D072-9881-4138-A01A-B72B9F11370A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF3D072-9881-4138-A01A-B72B9F11370A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF3D072-9881-4138-A01A-B72B9F11370A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF3D072-9881-4138-A01A-B72B9F11370A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,5 +178,7 @@ Global
 		{CCA5418D-C006-4B38-9571-81829296273E} = {E062CF3C-4B94-47BB-8A63-077B527D8E90}
 		{8B80587D-EB43-48E6-B8E0-7369E49E7D24} = {2CC18CED-0A91-4C26-BBC0-CA8D7A7BD399}
 		{AABC0AE4-9122-4164-B125-6BB1E37CBB74} = {E062CF3C-4B94-47BB-8A63-077B527D8E90}
+		{06186746-D4A1-41C0-A282-90FB34FB6417} = {2CC18CED-0A91-4C26-BBC0-CA8D7A7BD399}
+		{BBF3D072-9881-4138-A01A-B72B9F11370A} = {E062CF3C-4B94-47BB-8A63-077B527D8E90}
 	EndGlobalSection
 EndGlobal
