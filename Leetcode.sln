@@ -56,6 +56,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.RotateImage", "Lee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.RotateImageTests", "Leetcode.RotateImageTests\Leetcode.RotateImageTests.csproj", "{BBF3D072-9881-4138-A01A-B72B9F11370A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.SpiralMatrix", "Leetcode.SpiralMatrix\Leetcode.SpiralMatrix.csproj", "{FCB35F9B-873A-43C3-97F0-821A397AC829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.SpiralMatrix.Tests", "Leetcode.SpiralMatrix.Tests\Leetcode.SpiralMatrix.Tests.csproj", "{5C93809A-AF75-4B70-B09D-4037783B7CE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +154,14 @@ Global
 		{BBF3D072-9881-4138-A01A-B72B9F11370A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBF3D072-9881-4138-A01A-B72B9F11370A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBF3D072-9881-4138-A01A-B72B9F11370A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB35F9B-873A-43C3-97F0-821A397AC829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB35F9B-873A-43C3-97F0-821A397AC829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB35F9B-873A-43C3-97F0-821A397AC829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB35F9B-873A-43C3-97F0-821A397AC829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C93809A-AF75-4B70-B09D-4037783B7CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C93809A-AF75-4B70-B09D-4037783B7CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C93809A-AF75-4B70-B09D-4037783B7CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C93809A-AF75-4B70-B09D-4037783B7CE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,5 +192,7 @@ Global
 		{AABC0AE4-9122-4164-B125-6BB1E37CBB74} = {E062CF3C-4B94-47BB-8A63-077B527D8E90}
 		{06186746-D4A1-41C0-A282-90FB34FB6417} = {2CC18CED-0A91-4C26-BBC0-CA8D7A7BD399}
 		{BBF3D072-9881-4138-A01A-B72B9F11370A} = {E062CF3C-4B94-47BB-8A63-077B527D8E90}
+		{FCB35F9B-873A-43C3-97F0-821A397AC829} = {2CC18CED-0A91-4C26-BBC0-CA8D7A7BD399}
+		{5C93809A-AF75-4B70-B09D-4037783B7CE7} = {E062CF3C-4B94-47BB-8A63-077B527D8E90}
 	EndGlobalSection
 EndGlobal
